@@ -6,8 +6,23 @@
 }
 :root {
     --text-color: #182237;
+    --orange-gradient: linear-gradient(99.54deg, #F6931B 19.48%, #F26921 57.19%);
 }
 html { font-size:62.5%; } 
 h1,h2,h3,h4,h5,h6,p {
     color: var(--text-color);
+}
+.btn-orange-gradient {
+    background: var(--orange-gradient);
+    outline: none;
+    color: white;
+    padding: 9px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1400px) { 
+    html {font-size: 60%;}
 }

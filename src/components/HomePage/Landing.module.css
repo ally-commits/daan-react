@@ -1,23 +1,95 @@
 .container {
     width: 100%;
-    height: 80vh;
+    height: 80vh; 
     background: linear-gradient(to right,#244D9B 35%, white 35%);
     position: relative;
 }
 
 .landingKids {
     position: absolute;
-    bottom: -70px;
+    bottom: -66px;
     width: 59.5%;
+    left: -60px;
+}
+.roundBlue {
+    background: radial-gradient(99.2% 99.2% at 89.57% 11.23%, #2957DF 0%, #112F7B 100%);
+    box-shadow: -19px 108.38px 90px rgba(128, 155, 211, 0.4);
+    transform: rotate(44.27deg);
+    position: absolute;
+    bottom: -2rem;
+    left: 35%;
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 100%;
+}
+.btnRightFixed {
+    background: var(--orange-gradient);
+    outline: none;
+    color: white;
+    padding: 9px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: top right;
+    right: 0px;
+    top: 70%;
 }
 .header {
-    height: 15%;
+    height: 18%;  
+}
+.headerContent {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerLogo {
+    height: 80%;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+}
+.navItem {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.navItem img {
+    height: 1.8rem;
+    margin-right: 10px;
+}
+.navItem:hover {
+    cursor: pointer;
+}
+.chatButton {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 2px;
+    border: 1.1px solid #3EAC5D;
+}
+.chatButton img {
+    height: 2.6rem;
+    margin-right: 5px;
 }
 .content{
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 80%; 
     margin: 0 auto;
+    margin-top: 20px;
 }
 .leftContent {
     flex: 4; 
@@ -36,7 +108,7 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .rightContent h4 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-top: 1rem;
     line-height: 3rem;
 }
@@ -44,7 +116,7 @@
 .playContent {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .playButton {
@@ -74,4 +146,80 @@
     margin-left: 15px;
     font-weight: 600;
     text-transform: uppercase;
+}
+.specBoxes {
+    margin-top: 5rem;
+    display: flex; 
+}
+.specBox {
+    display: flex;
+    width: 27%;
+    margin-right: 3%;
+    flex-direction: column;
+    border-width: 1px 1px 1px 0;
+    border-style: solid; 
+    -webkit-border-image: 
+      -webkit-linear-gradient(left, #F6931B, #F26921) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(left, #F6931B, #F26921) 1 100%; 
+    -o-border-image:
+      -o-linear-gradient(left, #F6931B, #F26921) 1 100%;
+    border-image:
+      linear-gradient(to left, #F6931B, #F26921) 1 100%;  
+}
+.specBox:last-child{
+    border: none;
+}
+.specBox p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.specBox p:nth-child(2) {
+    opacity: 0.90;
+    margin-top: 4px;
+}
+.specBox p:nth-child(1) {
+    background: var(--orange-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1400px) {
+    .content {
+        width: 95%;
+    }
+    .headerContent {
+        width: 95%;
+    }
+    .rightContent h1 {
+        font-size: 7.8rem; 
+        font-weight: 900;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .rightContent h2 {
+        font-size: 6.5rem;
+        font-weight: 900;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .rightContent h4 {
+        width: 80%;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        line-height: 2.5rem;
+    }
+    .playButton {
+        width: 8rem;
+        height: 8rem;
+    }
+    .roundBlue { 
+        left: 30%;
+    }
+    .landingKids {
+        bottom: -46px;
+        left: -45px;
+    }
+   .specBoxes {
+       margin-top: 4rem;
+   }
 }

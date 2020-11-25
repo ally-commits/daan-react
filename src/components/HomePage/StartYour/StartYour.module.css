@@ -1,4 +1,51 @@
 .container {
-    width: 80%;
+    width: 100%;
+    padding: 6rem 0px;
     height: auto;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.content p {
+    font-size: 2.2rem;
+    text-align: center;
+}
+.blocks {
+    display: flex;
+    width: 100%;
+    margin: 40px 0px;
+    justify-content: space-between;
+}
+.block {
+    flex: 1;
+    margin-right: 15px;
+    background-color: #DEE9FF;
+    font-size: 1.6rem;
+    padding: 15px;
+    text-align: center;
+    border-radius: 2px;
+}
+.button {
+    background: var(--orange-gradient);
+    outline: none;
+    color: white;
+    width: 140px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1400px) { 
+    .container {
+        padding: 5rem 0px;
+    }
+    .content {
+        width :95%
+    }
+    .block {
+        font-size: 1.4rem;
+        padding: 15px 10px;
+    }
 }

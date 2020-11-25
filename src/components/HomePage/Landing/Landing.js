@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './Landing.module.css'
 
-import landingKids from '../../assets/img/landing-kids.png'
-import playSvg from '../../assets/svg/play.svg'
-import daanLogo from '../../assets/svg/daan-logo.svg'
-import searchIcon from '../../assets/svg/search.svg'
-import userIcon from '../../assets/svg/user.svg'
-import chatIcon from '../../assets/svg/chat.svg'
+import landingKids from '../../../assets/img/landing-kids.png'
+import playSvg from '../../../assets/svg/play.svg'
+import daanLogo from '../../../assets/svg/daan-logo.svg'
+import searchIcon from '../../../assets/svg/search.svg'
+import userIcon from '../../../assets/svg/user.svg'
+import chatIcon from '../../../assets/svg/chat.svg'
 
 
 const Landing = () => {

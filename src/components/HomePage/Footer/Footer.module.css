@@ -1,0 +1,119 @@
+.container {
+    width: 100%;
+    background: #182237;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainBox {
+    flex: 3;
+}
+.mainBox .logo {
+    width: 8rem;
+}
+.mainBox p {
+    font-size: 1.4rem;
+    width: 80%;
+    line-height: 2rem;
+    margin: 1rem 0px;
+    color: white;
+}
+.box {
+    flex: 2;
+    color: white;
+}
+.box h1 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 2rem;
+}
+.box p {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0.5rem 0px;
+}
+.box p:hover {
+    cursor: pointer;
+}
+.mainBox h2 {
+    font-size: 1.8rem;
+    width: 90%;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+.inputGroup {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    margin: 1.5rem 0px;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+.inputGroup input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    text-indent: 1rem;
+}
+.inputGroup .icon {
+    width: 20%;
+    background: var(--orange-gradient);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials {
+    margin: 2rem 0px;
+}
+.socials img {
+    margin-right: 10px;
+    width: 5rem;
+}
+.socials img:hover {
+    cursor: pointer;
+}
+.footerContent {
+    background-color: #000;
+    width: 100%;
+    padding: 4rem 0px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer p {
+    font-size: 1.4rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1400px) {  
+    .content {
+        width: 95%;
+    }
+    .box p {
+        font-size: 1.3rem;
+    }
+    .mainBox h2 { 
+        font-size: 1.5rem;
+    }
+    .box h1 {
+        font-size: 1.5rem;
+    }
+    .inputGroup {
+        height: 5rem;
+        margin: 3rem 0px;
+    }
+    .socials img {
+        width: 4rem;
+    }
+}

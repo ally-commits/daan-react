@@ -1,0 +1,64 @@
+.container {
+    background: linear-gradient(270deg, #E9F1FE 50%, rgba(233, 241, 254, 0) 100.89%);
+    padding: 3rem 0px;
+    width: 100%;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.content h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+.content p {
+    font-size: 1.4rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.iconGroup {
+    width: 25%;
+    display: flex;
+    margin: 2rem 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes {
+    display: flex;
+    margin: 4rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconSet {
+    background: linear-gradient(92.28deg, #5EB3F1 -1.08%, #5ECEF1 101.73%);
+    box-shadow: 0px 30px 60px rgba(95, 203, 242, 0.51);
+    border-radius: 30px;
+    transform: rotate(46.62deg);
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    color: white;
+}
+.iconGroup p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.4rem;
+}
+.icon {
+    transform: rotate(-46.62deg);
+    width: 5.5rem;
+}
+@media only screen and (max-width: 1400px) { 
+    .iconSet {
+        width: 9rem;
+        height: 9rem;
+    }
+    .icon {
+        transform: rotate(-46.62deg);
+        width: 4rem;
+    }
+}

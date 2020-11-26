@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #E9F1FE 50%, rgba(233, 241, 254, 0) 100.89%);
+    padding: 5rem 0px;
+    width: 100%;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.head {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+.infoSlider {
+    width: 100%;
+    margin: 3.5rem 0px;
+}

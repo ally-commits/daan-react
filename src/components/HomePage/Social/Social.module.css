@@ -1,0 +1,19 @@
+.container {
+    background-color: white;
+    width: 100%;
+    padding: 8rem 0px;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content img {
+    height: 6rem;
+}
+.content h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}

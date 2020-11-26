@@ -1,0 +1,66 @@
+.container {
+    background: linear-gradient(270deg, #E9F1FE 50%, rgba(233, 241, 254, 0) 100.89%);
+    width: 100%;
+    position: relative;
+    padding-bottom: 10rem;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.leftContent {
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftContent img{
+    height: 60rem;
+    width: auto;
+    position: absolute;
+    z-index: 10;
+    top: -8rem;
+}
+.round {
+    position: absolute;
+    background: radial-gradient(99.2% 99.2% at 89.57% 11.23%, #FF17CC 0%, #7B115A 100%);
+    box-shadow: -19px 108.38px 90px rgba(0, 0, 0, 0.4);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    top: 30rem;
+    z-index: 11;
+    left: 5%;
+}
+.rightContent {
+    padding: 5rem 0px;
+    width: 50%;
+}
+.rightContent h6 {
+    font-size: 1.6rem;
+}
+.rightContent h1 {
+    font-size: 6rem;
+    margin: 2rem 0px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 6rem;
+}
+.rightContent p {
+    margin: 2rem 0;
+    width: 75%;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+}
+.rightContent button {
+    background-color: #DF1949;
+    color: white;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1.5rem 0px;
+}

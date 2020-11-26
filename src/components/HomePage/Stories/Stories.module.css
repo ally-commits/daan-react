@@ -1,0 +1,49 @@
+.container {
+    background: linear-gradient(to bottom, #ffffff, #E9F1FE 100.89%);
+    padding: 8rem 0px;
+    width: 100%; 
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.leftContent {
+    width: 50%;
+}
+.leftContent img {
+    width: 80%;
+}
+.rightContent {
+    width: 50%;
+}
+.contentInfo {
+    background-color: white;
+    padding: 8rem 0px;
+}
+.boxes {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+}
+.box img {
+    width: 5rem;
+}
+.boxContent {
+    margin-left: 1rem;
+}
+.boxContent h4 {
+    color: blue;
+    font-size: 2rem;
+}
+.boxContent p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    font-weight: 700;
+}

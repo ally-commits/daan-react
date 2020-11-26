@@ -1,0 +1,94 @@
+.container {
+    background: linear-gradient(270deg, #E9F1FE 50%, rgba(233, 241, 254, 0) 100.89%);
+    padding: 3rem 0px;
+    width: 100%;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.topContainer {
+    display: flex; 
+    align-items: center;
+}
+.peopleSay {
+    flex: 1; 
+}
+.video {
+    flex: 1;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.peopleSay  h4 {
+    font-size: 4.2rem;
+    width: 55%;
+    text-transform: uppercase;
+}
+.peopleSay p {
+    margin-top: 20px;
+    width: 75%;
+    font-size: 1.8rem;
+}
+.bottomContainer {
+    display: flex;
+    margin-top: 3rem; 
+}
+.imgSlider {
+    flex: 3;
+    height: 400px; 
+}
+.imgSlider div {
+    height: 100%;
+} 
+.keyPoints {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.keyPoints h4 {
+    font-size: 3.8rem; 
+    font-weight:800;
+    text-transform: uppercase;
+}
+.iconSets {
+    width: 80%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconGroup {
+    width: 25%;
+    display: flex;
+    margin: 2rem 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.iconSet {
+    background: linear-gradient(92.28deg, #5EB3F1 -1.08%, #5ECEF1 101.73%);
+    box-shadow: 0px 30px 60px rgba(95, 203, 242, 0.51);
+    border-radius: 30px;
+    transform: rotate(46.62deg);
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    color: white;
+}
+.iconGroup p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2.4rem;
+}
+.icon {
+    transform: rotate(-46.62deg);
+    width: 5.5rem;
+}
+@media only screen and (max-width: 1400px) { 
+    .keyPoints h4 {
+        font-size: 3.2rem;
+    }
+}

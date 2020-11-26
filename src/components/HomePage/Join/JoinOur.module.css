@@ -1,0 +1,153 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #E9F1FE 50%, rgba(233, 241, 254, 0) 100.89%);
+    padding: 5rem 0px;
+    width: 100%;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.section1 {
+    display: flex;
+}
+.section1  .leftContent {
+    width: 50%;
+}
+.section1  .leftContent h1 {
+    font-size: 9rem;
+    font-weight: 900;
+    width: 80%;
+    line-height: 8rem;
+    text-transform: uppercase;
+}
+.section1  .leftContent p {
+    width: 80%;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+.section1 .rightContent {
+    display: flex;
+    align-items: center;
+}
+.section1 .rightContent h1 {
+    font-size: 25rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgba(170, 197, 255, 0.2);
+    position: relative;
+}
+.section1 .rightContent h1::after {
+    content: "";
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 37.2%;
+    border-radius: 100%;
+    top: 36%;
+    background: radial-gradient(99.2% 99.2% at 89.57% 11.23%, #FF17CC 0%, #7B115A 100%);
+    box-shadow: -19px 108.38px 90px rgba(128, 155, 211, 0.4);
+}
+.section2 {
+    display: flex;
+    margin: 2rem 0px;
+}
+.section2 .leftContent {
+    width: 50%;
+}
+.section2 .leftContent img {
+    width: 80%; 
+}
+.rightContent {
+    width: 50%;
+}
+.section2 .rightContent h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 60%;
+}
+.section2 .rightContent p {
+    font-size: 1.6rem;
+    margin: 1rem 0px;
+    width: 80%;
+}
+.specBoxes {
+    display: flex;
+    margin: 3rem 0px;
+}
+.specBox {
+    display: flex;
+    width: 18rem;
+    margin-right: 1.5rem;
+}
+.rightContent .specBox p {
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+.rightContent .specBox img {
+    width: 4rem;
+}
+.content button {
+    padding: 1.2rem 1.5rem;
+}
+.section3 {
+    display: flex;
+    margin: 5rem 0px;
+}
+.section3 .leftContent {
+    width: 50%;
+}
+.section3 .rightContent {
+    width: 50%;
+}
+.section3 .rightContent img {
+    width: 80%; 
+}
+.section3 .leftContent h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section3 .leftContent p {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 2rem 0px;
+    line-height: 2.3rem;
+}
+.section3 .infoBoxes {
+    display: flex;
+    margin: 4rem 0px;
+}
+.infoBox {
+    display: flex;
+    margin: 0px 1rem;
+}
+.infoBox p {
+    font-size: 1.5rem !important;
+    font-weight: 700;
+    margin-left: 1.5rem !important;
+}
+.infoBox img {
+    width: 5rem;
+}
+@media only screen and (max-width: 1400px) {  
+    .section1 .leftContent h1 {
+        font-size: 7.5rem;
+    }
+    .section1 .rightContent h1 {
+        font-size: 20.5rem;
+    }
+    .section1 .rightContent h1::after {
+        content: "";
+        position: absolute;
+        width: 7.6rem;
+        height: 7.6rem;
+        left: 37.2%;
+        border-radius: 100%;
+        top: 36%;
+    }
+}

@@ -1,0 +1,7 @@
+.imgContainer {
+    width: 100%; 
+}
+.imgContainer img {
+    width: auto;
+    height: 100%;
+}

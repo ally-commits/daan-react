@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Landing from './Landing/Landing'
-import StartYour from './StartYour/StartYour';
+import StartYour from '../Utils/StartYour/StartYour';
 import About from './About/About';
 import Trending from './Trending/Trending';
 import JoinOur from './Join/JoinOur';

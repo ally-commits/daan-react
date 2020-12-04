@@ -36,54 +36,7 @@
     right: 0px;
     top: 70%;
 }
-.header {
-    height: 18%;  
-}
-.headerContent {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.headerLogo {
-    height: 80%;
-}
 
-.navItems {
-    display: flex;
-    align-items: center;
-}
-.navItem {
-    font-size: 1.4rem;
-    font-weight: 500;
-    margin: 0px 10px;
-    display: flex;
-    align-items: center;
-}
-.navItem img {
-    height: 1.8rem;
-    margin-right: 10px;
-}
-.navItem:hover {
-    cursor: pointer;
-}
-.chatButton {
-    margin-left: 10px;
-    background: none;
-    border: none;
-    outline: none;
-    display: flex;
-    align-items: center;
-    padding: 4px 8px;
-    border-radius: 2px;
-    border: 1.1px solid #3EAC5D;
-}
-.chatButton img {
-    height: 2.6rem;
-    margin-right: 5px;
-}
 .content{
     display: flex;
     align-items: center;

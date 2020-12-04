@@ -1,0 +1,39 @@
+.container {
+    background: #E4E9F4;
+    width: 100%;
+    padding: 6rem 0px;
+    position: relative;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.content h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0px;
+}
+.point img {
+    height: 1.6rem;
+}
+.point p {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.round {
+    background: radial-gradient(99.2% 99.2% at 89.57% 11.23%, #FF17CC 0%, #7B115A 100%);
+    box-shadow: -19px 108.38px 90px #809BD3;
+    position: absolute;
+    right: 10%;
+    top: -5%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}

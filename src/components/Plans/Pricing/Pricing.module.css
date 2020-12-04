@@ -1,0 +1,175 @@
+.container {
+    padding: 5rem 0px;
+    width: 100%;
+    background: rgba(170, 197, 255, 0.1);
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 30rem; 
+    margin: 4rem;
+}
+.topBox {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 3rem;
+    border: 1px solid #DEDEDE;
+    position: relative;
+    z-index: 2;
+}
+.topBox h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.topBox p {
+    margin: 5px 0px;
+    font-size: 1.2rem;
+}
+.topBox h2 {
+    font-size: 4.5rem;
+    display: flex;
+    margin: 2rem 0px;
+}
+.topBox h2 .perc {
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+}
+.perc span {
+    font-size: 2rem;
+    display: block;
+}
+.perc small {
+    font-size: 1.2rem;
+    display: block;
+}
+.topBox button {
+    background: #1267E5;
+    font-size: 1.4rem;
+    color: white;
+    outline: none;
+    border: none; 
+    width: 100%;
+    font-weight: 600;
+    padding: 1.2rem 4rem;
+}
+.bottomBox {
+    background: #FFFFFF; 
+    margin-top: -2rem;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 3rem;
+    padding-top: 5rem;
+    z-index: 1;
+}
+.bottomBox p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.point {
+    display: flex;
+    align-items: center;
+}
+.point img {
+    margin-right: 1rem;
+}
+.point p {
+    margin: 1rem 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* ORANGE BOX */
+.boxOrange {
+    width: 30rem; 
+    background: linear-gradient(99.54deg, #F6931B 19.48%, #F26921 57.19%);
+    color: white;
+    margin: 4rem;
+    border-radius: 10px;
+}
+.topBoxOrange { 
+    box-sizing: border-box;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 3rem; 
+    position: relative;
+    z-index: 2;
+}
+.topBoxOrange h1 {
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.topBoxOrange p {
+    color: white;
+    margin: 5px 0px;
+    font-size: 1.2rem;
+}
+.topBoxOrange h2 {
+    color: white;
+    font-size: 4.5rem;
+    display: flex;
+    margin: 2rem 0px;
+}
+.topBoxOrange h2 .percOrange {
+    color: white;
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+}
+.percOrange span {
+    color: white;
+    font-size: 2rem;
+    display: block;
+}
+.percOrange small {
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+}
+.topBoxOrange button {
+    background: #ffffff;
+    font-size: 1.4rem;
+    outline: none;
+    border: none; 
+    width: 100%;
+    font-weight: 600;
+    padding: 1.2rem 4rem;
+}
+.bottomBoxOrange {
+    color: white;
+    margin-top: -2rem;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 3rem;
+    padding-top: 5rem;
+    z-index: 1;
+}
+.bottomBoxOrange p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+.pointOrange {
+    display: flex;
+    align-items: center;
+}
+.pointOrange img {
+    margin-right: 1rem;
+}
+.pointOrange p {
+    margin: 1rem 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}

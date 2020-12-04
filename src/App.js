@@ -1,37 +1,25 @@
 import React from 'react'
 import styles from './styles/App.module.css';
 
-import Landing from './components/HomePage/Landing/Landing'
-import StartYour from './components/HomePage/StartYour/StartYour';
-import About from './components/HomePage/About/About';
-import Trending from './components/HomePage/Trending/Trending';
-import JoinOur from './components/HomePage/Join/JoinOur';
-import GetStarted from './components/HomePage/GetStarted/GetStarted';
-import Stories from './components/HomePage/Stories/Stories';
-import ChooseDaan from './components/HomePage/ChooseDaan/ChooseDaan';
-import DonateNow from './components/HomePage/DonateNow/DonateNow';
-import Social from './components/HomePage/Social/Social';
-import Footer from './components/HomePage/Footer/Footer';
+import HomePage from './components/HomePage/HomePage';
+import ContactUs from './components/ContactUs/ContactUs';
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import Plans from './components/Plans/Plans';
+
+const hist = createBrowserHistory();
 
 const App = () => {
   return (
     <div className={styles.container}>
-      <Landing />
-      <StartYour />
-
-      <About />
-      <Trending />
-
-      <JoinOur />
-      <GetStarted />
-
-      <Stories />
-      <ChooseDaan />
-
-      <DonateNow />
-      <Social />
-
-      <Footer />
+      <Router history={hist}> 
+        <Switch>   
+            <Route exact path="/" component={HomePage} />  
+            <Route exact path="/contact-us" component={ContactUs} />  
+            <Route exact path="/plans-and-pricing" component={Plans} />  
+          </Switch> 
+      </Router>
     </div>
   );
 }

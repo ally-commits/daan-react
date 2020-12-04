@@ -4,6 +4,24 @@
 }
 .content {
     width: 90%;
+    height: auto; 
     margin: 0 auto;
     display: flex;
+    align-items: flex-start;
+}
+.sideBar {
+    width: 22%;
+}
+.sideBar h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 90%;
+    margin-bottom: 1rem;
+
+} 
+@media only screen and (max-width: 1500px) {
+    .sideBar {
+        height: 30%;
+    }
 }

@@ -9,7 +9,7 @@ import GetStarted from './GetStarted/GetStarted';
 import Stories from './Stories/Stories';
 import ChooseDaan from './ChooseDaan/ChooseDaan';
 import DonateNow from './DonateNow/DonateNow';
-import Social from './Social/Social';
+import Social from '../Utils/Social/Social';
 import Footer from '../Utils/Footer/Footer';
 
 const HomePage = () => {

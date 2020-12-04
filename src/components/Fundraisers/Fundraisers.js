@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../Utils/Footer/Footer'
+import Social from '../Utils/Social/Social'
 import StartYour from '../Utils/StartYour/StartYour'
 
 import Landing from './Landing/Landing'
@@ -11,6 +13,9 @@ const Fundraisers = () => {
             <Landing />  
             <StartYour />
             <MainContent />
+
+            <Social />
+            <Footer />
         </React.Fragment>
     )
 }

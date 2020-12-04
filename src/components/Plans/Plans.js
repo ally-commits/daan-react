@@ -13,8 +13,8 @@ const Plans = () => {
             <Landing /> 
             <Pricing />
             <Notes />
-            <Footer />
             <StartYour />
+            <Footer />
         </React.Fragment>
     )
 }

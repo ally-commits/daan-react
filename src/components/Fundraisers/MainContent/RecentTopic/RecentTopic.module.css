@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    margin: 2rem 0px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2rem;
+}
+.container h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+} 
+.box {
+    display: flex;
+    margin-top: 1.8rem;
+}
+.box:hover {
+    cursor: pointer;
+}
+.box img {
+    width: 9rem;
+    border-radius: 2px;
+    height: auto;
+    margin-right: 1rem;
+}
+.box h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}

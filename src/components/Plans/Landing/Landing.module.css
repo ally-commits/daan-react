@@ -56,3 +56,14 @@
     box-shadow: -19px 108.38px 90px rgba(128, 155, 211, 0.4);
     transform: rotate(44.27deg);
 }
+@media only screen and (max-width: 1700px) {
+    .container {
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        height: 80vh;
+    }
+}

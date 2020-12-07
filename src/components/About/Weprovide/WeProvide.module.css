@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    background-color: rgba(170, 197, 255, 0.2);
+    height: auto;
+    padding: 4rem;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.content h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.content p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.cards {
+    display: flex;
+    margin: 5rem 0px;
+    justify-content: space-around;
+}
+.card {
+    width: 40rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.round {
+    background: linear-gradient(180deg, #FF8FEE 0%, #9CCBFC 97.71%);
+    border-radius: 24px;
+    transform: matrix(0.69, 0.73, -0.72, 0.69, 0, 0);
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
+.card h5 {
+    font-size: 2rem;
+}
+.card p {
+    text-align: left;
+    margin: 2rem 0px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}

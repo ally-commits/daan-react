@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    padding: 4rem;
+    background-color: rgba(170, 197, 255, 0.2);
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+.cards {
+    display: flex;
+    margin: 3rem 0px;
+}
+.card {
+    margin: 1.5rem;
+}
+.imgContainer {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(246, 16, 104, 0.04);
+    border-radius: 100%;
+    border: 1px solid #F61067;
+}
+.imgContainer img {
+    width: 30%;
+    height: 30%;
+}
+.card h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 2rem 0px;
+}
+.card p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}

@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    padding: 8rem 0px;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.smallBox {
+    flex: 2;
+    margin-right: 2rem;
+    background: #FFFFFF;
+    box-shadow: 19px -20px 90px rgba(91, 117, 171, 0.31);
+    border-radius: 16px;
+    padding: 2rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+}
+.bigBox {
+    flex: 3;
+    padding: 2rem;
+    height: 18rem;
+    background: #FFFFFF;
+    box-shadow: 19px -20px 90px rgba(91, 117, 171, 0.31);
+    border-radius: 16px;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.smallBox img {
+    width: 8rem; 
+    height: 8rem;
+    flex: 2;
+}
+.smallBox .textContent {
+    margin-left: 2rem;
+    flex: 4;
+}
+.textContent h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 1.5rem 0px;
+}
+.textContent h4 {
+    font-size: 1.6rem;
+}
+.textContent span {
+    color: var(--text-orange);
+    font-size: 1.3rem;
+    margin: 1rem 0px;
+    font-weight: 500;
+}
+.textContent p {
+    color: blue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 2rem 0px;
+}
+.bigBox img {
+    width: 14rem; 
+    height: 14rem;
+}
+.textContent div {
+    display: flex;
+    align-items: center;
+}
+.textContent div img {
+    height: 8rem;
+    margin-left: 2rem;
+}
+.textContent div h6 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.bigBox .textContent {
+    margin-left: 4rem;
+    flex: 4;
+}
+.bigBox h1{
+    margin: 0px; 
+}
+.bigBox p {
+    margin: 0px;
+}

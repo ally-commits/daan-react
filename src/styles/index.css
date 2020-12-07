@@ -8,6 +8,7 @@
 :root {
     --text-color: #182237;
     --orange-gradient: linear-gradient(99.54deg, #F6931B 19.48%, #F26921 57.19%);
+    --text-orange: #F26921;
 }
 html { font-size:62.5%; } 
 h1,h2,h3,h4,h5,h6,p {
@@ -22,6 +23,17 @@ h1,h2,h3,h4,h5,h6,p {
     border: none;
     font-size: 14px;
 }
+.btn-red {
+    background-color: #DF1949;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1.5rem 0px;
+}
+
 .slick-slide div:first-of-type {
     display: flex ;
     align-items: center ; 

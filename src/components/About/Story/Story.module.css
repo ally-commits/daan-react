@@ -2,6 +2,7 @@
     height: 40vh;
     width: 100%;
     background-image: url("../../../assets/img/contact-form-bg.png"), linear-gradient(#2944df, #2944df); 
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     align-items: center; 

@@ -10,6 +10,7 @@ import Plans from './components/Plans/Plans';
 import Fundraisers from './components/Fundraisers/Fundraisers';
 import Teams from './components/Teams/Teams';
 import About from './components/About/About';
+import FundraisersInner from './components/FundraisersInner/FundraisersInner';
 
 const hist = createBrowserHistory();
 
@@ -25,6 +26,8 @@ const App = () => {
 
             <Route exact path="/teams" component={Teams} />  
             <Route exact path="/about" component={About} />  
+            <Route exact path="/fundraisers-inner" component={FundraisersInner} /> 
+
 
           </Switch> 
       </Router>

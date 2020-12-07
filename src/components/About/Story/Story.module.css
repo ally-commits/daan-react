@@ -1,0 +1,35 @@
+.container {
+    height: 40vh;
+    width: 100%;
+    background-image: url("../../../assets/img/contact-form-bg.png"), linear-gradient(#2944df, #2944df); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.content {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    padding: 4rem;
+    margin: 0 auto;
+}
+.leftContent {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftContent img {
+    height: 100%;
+}
+.rightContent {
+    margin-left: 4rem;
+    flex: 3;
+}
+.rightContent p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin: 2rem 0px;
+    color: white;
+}

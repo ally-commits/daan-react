@@ -1,0 +1,52 @@
+.container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+.content {
+    width: 90%;
+    height: 100%; 
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 90px);
+    margin: 0 auto; 
+}
+.content h1 { 
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+} 
+.content img {
+    position: absolute;
+    bottom: 0px;
+}
+.round1 {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border:4px solid #FFBA49;
+    border-radius: 100%;
+    bottom: 20%;
+    left: 10%;
+}
+.round2 {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border:4px solid #FFBA49;
+    border-radius: 100%;
+    bottom: 10%;
+    left: 15%;
+}
+.round3 {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border:4px solid #FFBA49;
+    border-radius: 100%;
+    bottom: 20%;
+    right: 10%;
+} 

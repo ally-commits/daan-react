@@ -1,0 +1,38 @@
+.container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+.content {
+    width: 90%;
+    height: 100%; 
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 90px);
+    margin: 0 auto; 
+}
+.content h1 { 
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content p {
+    font-size: 1.4rem;
+    width: 50%;
+    text-align: center;
+    margin: 1.5rem 0px;
+}
+.round {
+    background: radial-gradient(99.2% 99.2% at 89.57% 11.23%, #2957DF 0%, #112F7B 100%);
+    box-shadow: -19px 108.38px 90px rgba(128, 155, 211, 0.4);
+    transform: rotate(44.27deg);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+}
